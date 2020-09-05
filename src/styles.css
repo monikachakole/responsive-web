@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  padding: 20px;
+}
+
+.button {
+  color: white;
+  background: linear-gradient(45deg, #412de0, #7be4dae3);
+  border-radius: 20px;
+  padding: 5px 20px;
+  margin-top: 50px;
+  /* position: absolute;
+    right: 0; */
+  /* margin-top: 87px; */
+}
+
+/* About Page Start */
+.about-page-container {
+  background-image: url(assets/images/home-page-background-image.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: 100%;
+}
+
+.about-page-img {
+  text-align: center;
+}
+
+.about-us-des-cont {
+  padding: 60px;
+}
+
+.about-us-des {
+  font-size: 15px;
+}
+
+.about-us-container {
+  background: #8597ea38;
+}
+
+/* About Page End */
+.about-us-image-container,
+.feature-image-container {
+  border-radius: 50% 0% 0% 50%;
+}
+
+.feature-container {
+  background: #8597ea1c;
+}
+
+.feature-detail {
+  max-width: 40%;
+  margin: 20px;
+}
+
+#mobile-icon {
+  font-size: 23px;
+}
+
+.feature-des {
+  font-size: 15px;
+}

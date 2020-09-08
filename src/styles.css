@@ -8,15 +8,12 @@ body {
   border-radius: 20px;
   padding: 5px 20px;
   margin-top: 50px;
-  /* position: absolute;
-    right: 0; */
-  /* margin-top: 87px; */
+  border: none;
 }
 
 /* About Page Start */
 .about-page-container {
   background-image: url(assets/images/home-page-background-image.jpg);
-  /* background-repeat: no-repeat; */
   background-size: 100%;
 }
 
@@ -58,3 +55,87 @@ body {
 .feature-des {
   font-size: 15px;
 }
+
+/* Pricing Start */
+.pricing-container {
+  background: #8597ea1c;
+}
+
+.column-container {
+  padding: 0px 70px;
+}
+
+.column {
+  width: 275px;
+}
+
+.inner-div {
+  position: relative;
+  top: -26px;
+  width: 280px;
+  margin: auto;
+  margin-right: 0px;
+  margin-left: 65px;
+}
+
+.curve-div {
+  border-radius: 50% 0% 0% 50%;
+  padding: 17px;
+}
+
+#pricing-button {
+  padding: 7px 21px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+/* Pricing End */
+
+/* Download Start */
+.download-container {
+  background: #8597ea1c;
+}
+
+.download-heading {
+  font-size: 14px;
+}
+
+#download-button {
+  border-radius: 45px;
+}
+
+.download-detail {
+  margin: 0px 20px;
+}
+/* Download End */
+
+/* Contact Us Start */
+.contact-us-container {
+  background: #8597ea38;
+}
+
+.contact-us-container input {
+  width: 100%;
+  padding: 12px;
+}
+
+#message-input {
+  height: 122px;
+}
+
+.contact-us-address i {
+  padding: 7px;
+  border-radius: 50%;
+  background: #bbb9b9;
+  font-size: 10px;
+  margin-right: 4px;
+}
+
+.contact-us-address {
+  line-height: 2;
+}
+
+#fb-icon {
+  width: 22px;
+}
+/* Contact Us End */

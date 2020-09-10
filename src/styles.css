@@ -1,3 +1,6 @@
+/* @import "~ngx-owl-carousel-o/lib/styles/scss/owl.carousel";
+@import "~ngx-owl-carousel-o/lib/styles/scss/owl.theme.default"; */
+
 body {
   padding: 20px;
 }
@@ -139,3 +142,7 @@ body {
   width: 22px;
 }
 /* Contact Us End */
+
+.review-container {
+  background: #8597ea38;
+}
